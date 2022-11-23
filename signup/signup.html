@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Sign up</title>
+</head>
+<body>
+    <nav>
+        <a href="../home/home.html">Home</a>
+        <a href="../signup/signup.html">Sign up</a>
+        <a href="../advantages/advantages.html">Our advantages</a>
+        <a href="../about-us/about-us.html">About Us</a>
+    </nav>
+    <h1>Book a table</h1>
+    <form action="form-handling-url" method="post">
+        <fieldset>
+            <div>
+                <label for="firstName">First name</label>
+                <input type="text" id="firstName" name="first_name" required="required" >
+            </div>
+            <div>
+                <label for="lastName">Last name</label>
+                <input type="text" id="lastName" name="last_name" required="required">
+            </div>
+            <div>
+                <label for="email">Email address</label>
+                <input type="email">
+            </div>
+            <div>
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" required="required">
+            </div>
+            <div>
+                <label for="time">Time</label>
+                <input type="time" id="time" name="time" required="required">
+            </div>
+            <div>
+                <p>What is your current level?</p>
+                <label for="beginner">Beginner</label>
+                <input type="checkbox">
+                <label for="amateur">Amateur</label>
+                <input type="checkbox">
+                <label for="pro">Professional</label>
+                <input type="checkbox">
+            </div>
+            <div>
+                <label for="bio">Bio</label>
+                <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <button type="button">Book a table</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
